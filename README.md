@@ -2,23 +2,32 @@
 
 
 
-# [Project Name] 🎯
+# KITTY Catchat 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: SYNTAX
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Krishnendu K - Model Enineering College
+- Member 2: Devika S - Model Enineering College
+
 
 ### Project Description
-[2-3 lines about what your project does]
+Kitty ChatChat Bot is an AI-powered chatbot that lets you have conversations with a virtual cat.
+Powered by Google Gemini and FastAPI, the bot responds to your messages using only cat sounds like Meow, Purr, Hiss, and Mrow, while also explaining what the cat is trying to say in English.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Kitty ChatChat Bot gives your cat a voice — sort of.
+
+Send the bot any message, and the AI responds as a cat, using only:
+
+🐱 Meow
+😺 Purr
+😾 Hiss
+🐾 Mrow
+The bot then provides an English explanation of what its cat response means.
 
 ### The Solution (that nobody asked for)
 [How are you solving it? Keep it fun!]
@@ -26,84 +35,63 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+Language: Python,HTML,Javascript,CSS
+Framework: FastAPI
+AI Model: Google Gemini
+AI SDK: Google GenAI Python SDK
+Data Validation: Pydantic
+Environment Variables: python-dotenv
+API: REST API
+Streaming: Server-Sent Events (SSE)
+Data Format: JSON
+Frontend Serving: FastAPI StaticFiles
+Middleware: CORS
+
 
 ### Implementation
 For Software:
 # Installation
-```powershell
+git clone https://github.com/your-username/kitty-chatchat-bot.git
+cd kitty-chatchat-bot
+python -m venv venv
+venv\Scripts\activate
+source venv/bin/activate
 pip install fastapi uvicorn google-genai python-dotenv
-```
+GEMINI_API_KEY=your_gemini_api_key_here
 
-Create a `.env` file and add your Gemini key:
-
-```text
-GEMINI_API_KEY=your_key_here
-```
 
 # Run
-```powershell
-uvicorn main1:app --reload
-```
-
-Open http://127.0.0.1:8000 in your browser.
+uvicorn main:app --reload
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1600" height="769" alt="image" src="https://github.com/user-attachments/assets/0a19c21d-af72-40ff-af58-35a44b5dc565" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*this is the website homepage*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1165" height="805" alt="image" src="https://github.com/user-attachments/assets/ed918960-7844-4ed8-9258-16866ebaebf4" />
+
+*this is the chatbot menu*
+
+<img width="1015" height="759" alt="image" src="https://github.com/user-attachments/assets/83156688-1f71-4154-a001-85058d5371b4" />
+
+*here you can see the catchat bot is giving different responses*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="313" height="308" alt="image" src="https://github.com/user-attachments/assets/1989b7cd-b371-4440-a1bf-daa07ac9d760" />
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+(https://drive.google.com/file/d/1iTdxAD9kUp93MhtCF8I2cTHtzB7y4rHy/view?usp=sharing)
+*here you can see the chatbot responds to the users queries using cat language*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
